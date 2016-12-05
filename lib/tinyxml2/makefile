@@ -29,7 +29,6 @@ LDFLAGS = -shared -Wall
 all: prepare_environment $(DLL_DIR)/$(DLL)
 
 prepare_environment:
-#Create the object dir
 	mkdir $(OBJ_DIR) -p
 	mkdir $(DLL_DIR) -p
 
